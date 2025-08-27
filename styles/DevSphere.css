@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #0D1B2A;
+  color: #D1D5DB;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  color: #1E90D6;
+}
+
+.logo {
+  font-weight: 900;
+  font-size: 30px;
+  margin-left: 25px;
+}
+
+.navbar {
+  font-weight: 900;
+  font-size: 17px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+a {
+  color: #1E90D6;
+  text-decoration: none;
+}
+
+.hero-container {
+  height: 400px;
+  width: 1000px;
+  margin-top: 70px;
+  margin-left: 185px;
+  margin-right: 185px;
+  border: 2px solid #2DA8F7;
+  border-radius: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  color: #D1D5DB;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.h1 {
+  font-size: 40px;
+  color: #1E90D6;
+}
+
+.p1 {
+  font-size: 20px;
+}
+
+.join-button {
+  background-color: #1874C0;
+  color: #D1D5DB;
+  border: none;
+  border-radius: 9px;
+  padding: 14px 16px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.join-button:hover {
+  background-color: #1E90D6;
+}
+
+.join-button:active {
+  background-color: #1A2C3D;
+}
+
+.h2 {
+  font-size: 45px;
+  color: #1E90D6;
+}
+
+.p2 {
+  font-size: 18px;
+  line-height: 45px;
+  margin-bottom: 100px;
+  margin-left: 30px;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 25px;
+  margin-bottom: 55px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.features {
+  height: 150px;
+  border: 1px solid #2DA8F7;
+  border-radius: 15px;
+}
+
+.feature-head {
+  padding-left: 10px;
+  font-size: 18px;
+  color: #1E90D6;
+}
+
+.feature-info {
+  padding-left: 10px;
+  font-size: 15px;
+}
+
+.how-it-works-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 25px;
+  margin-bottom: 55px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.how-it-works {
+  height: 150px;
+  border: 1px solid #2DA8F7;
+  border-radius: 15px;
+}
+
+.how-it-works-title {
+  padding-left: 10px;
+  font-size: 18px;
+  color: #1E90D6;
+}
+  
+.how-it-works-info {
+  padding-left: 10px;
+  font-size: 15px;
+}
+
+.footer {
+  margin-top: 200px;
+  height: 100px;
+  background-color: #1A2C3D;
+}
+
+.footer-text {
+  padding-top: 70px;
+  text-align: center;
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  color: #D1D5DB;
+}
